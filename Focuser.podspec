@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
-
+  s.dependency = 'Introspect'
   s.source_files = 'Sources/Focuser/**/*'
 end
